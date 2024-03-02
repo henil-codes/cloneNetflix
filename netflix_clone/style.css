@@ -249,7 +249,7 @@ nav {
 
 }
 
-#box1 {
+#box1, #box2, #box3, #box4, #box5, #box6 {
     height: auto;
     width: 78vw;
     margin-top: 1.5vh;
@@ -259,7 +259,7 @@ nav {
     align-items: center;
 }
 
-#box1-ma-uparnu {
+#box1-ma-uparnu, #box2-ma-uparnu,#box3-ma-uparnu, #box4-ma-uparnu, #box5-ma-uparnu, #box6-ma-uparnu {
     height: 13vh;
     width: 100vw;
     max-width: 100%;
@@ -276,7 +276,10 @@ nav {
     background-color: #232323;
 }
 
-#box1-ma-uparnu:hover {
+#box1-ma-uparnu:hover, #box2-ma-uparnu:hover,
+#box3-ma-uparnu:hover, #box4-ma-uparnu:hover,
+#box5-ma-uparnu:hover, 
+#box6-ma-uparnu:hover {
     background-color: rgba(185, 185, 185,0.5);
     transition: 0.5s;
     cursor: pointer;
@@ -296,37 +299,8 @@ nav {
     display: inline-block;
 }
 
-#box2 {
-    height: auto;
-    width: 78vw;
-    margin-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#box2-ma-uparnu {
-    height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    background-color: #232323;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: ease-in;
-    padding: 0 4vw 0 4vw;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: white;
-    background-color: #232323;
-}
-
-#box2-ma-uparnu:hover {
-    background-color: rgba(185, 185, 185,0.5);
-    transition: 0.5s;
-    cursor: pointer;
+#box1-ma-gayab-they-ne-ave-te span:nth-last-child(1) {
+    margin-top: 10px;
 }
 
 #box2-ma-gayab-they-ne-ave-te {
@@ -343,39 +317,6 @@ nav {
     display: inline-block;
 }
 
-#box3 {
-    height: auto;
-    width: 78vw;
-    margin-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#box3-ma-uparnu {
-    height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    background-color: #232323;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: ease-in;
-    padding: 0 4vw 0 4vw;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: white;
-    background-color: #232323;
-}
-
-#box3-ma-uparnu:hover {
-    background-color: rgba(185, 185, 185,0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-
 #box3-ma-gayab-they-ne-ave-te {
     position: relative;
     display: none;
@@ -387,41 +328,11 @@ nav {
 }
 
 #box3-ma-gayab-they-ne-ave-te span {
-    display: inline-block;
+    display: inline-block;    
 }
 
-
-#box4 {
-    height: auto;
-    width: 78vw;
-    margin-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#box4-ma-uparnu {
-    height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    background-color: #232323;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: ease-in;
-    padding: 0 4vw 0 4vw;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: white;
-    background-color: #232323;
-}
-
-#box4-ma-uparnu:hover {
-    background-color: rgba(185, 185, 185,0.5);
-    transition: 0.5s;
-    cursor: pointer;
+#box3-ma-gayab-they-ne-ave-te span:nth-last-child(1) {
+    margin-top: 10px;   
 }
 
 #box4-ma-gayab-they-ne-ave-te {
@@ -438,40 +349,6 @@ nav {
     display: inline-block;
 }
 
-
-#box5 {
-    height: auto;
-    width: 78vw;
-    margin-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#box5-ma-uparnu {
-    height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    background-color: #232323;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: ease-in;
-    padding: 0 4vw 0 4vw;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: white;
-    background-color: #232323;
-}
-
-#box5-ma-uparnu:hover {
-    background-color: rgba(185, 185, 185,0.5);
-    transition: 0.5s;
-    cursor: pointer;
-}
-
 #box5-ma-gayab-they-ne-ave-te {
     position: relative;
     display: none;
@@ -484,39 +361,6 @@ nav {
 
 #box5-ma-gayab-they-ne-ave-te span {
     display: inline-block;
-}
-
-#box6 {
-    height: auto;
-    width: 78vw;
-    margin-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#box6-ma-uparnu {
-    height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    background-color: #232323;    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: ease-in;
-    padding: 0 4vw 0 4vw;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: white;
-    background-color: #232323;
-}
-
-#box6-ma-uparnu:hover {
-    background-color: rgba(185, 185, 185,0.5);
-    transition: 0.5s;
-    cursor: pointer;
 }
 
 #box6-ma-gayab-they-ne-ave-te {
@@ -533,13 +377,16 @@ nav {
     display: inline-block;
 }
 
+#box6-ma-gayab-they-ne-ave-te span:nth-last-child(1) {
+    margin-top: 10px;
+}
+
 .questions img {
     background-color: transparent;
     transform: scale(0.79);
 }
 
 /* Footer */
-
 
 .footer {
     height: 50vh;
