@@ -274,6 +274,7 @@ nav {
     font-weight: 400;
     color: white;
     background-color: #232323;
+    transition: 1s ease-in-out;
 }
 
 #box1-ma-uparnu:hover, #box2-ma-uparnu:hover,
