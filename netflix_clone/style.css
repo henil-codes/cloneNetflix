@@ -274,7 +274,6 @@ nav {
     font-weight: 400;
     color: white;
     background-color: #232323;
-    transition: 1s ease-in-out;
 }
 
 #box1-ma-uparnu:hover, #box2-ma-uparnu:hover,
@@ -294,6 +293,20 @@ nav {
     background-color: #232323;
     margin-top: 2px;
     font-size: 1.5rem;
+    transition: 1s ease-in-out ;
+    animation: topTOBottom 2s forwards ease-in-out step-start;
+}
+
+@keyframes topTOBottom{
+    from {
+        visibility: 0%;
+    } 
+    50% {
+        visibility: 50%;
+    }
+    to {
+        visibility: 100%;
+    }
 }
 
 #box1-ma-gayab-they-ne-ave-te span {
@@ -402,13 +415,23 @@ nav {
     font-family: Quicksand, sans-serif;
 }
 
-.footer ul {
+.f-links {
+    width: 70vw;
     display: grid;
     flex-wrap: wrap;
 
 }
 
-.footer ul a {
+.f-links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-links ul a {
+    width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 0.875rem;
     color: #bdbdbd;
     padding-top: 1.5vh;
@@ -428,13 +451,6 @@ nav {
 .call a {
     color: #bdbdbd;
     font-size: 1rem;
-}
-
-.f-links {
-    width: 70vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .signature span {
