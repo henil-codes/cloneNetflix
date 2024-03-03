@@ -1,6 +1,6 @@
-# I'm building a clone of Netflix Website.
+# Building a Netflix clone.
 
-### Here are some feature or changes I will add in future.
+### Here are some feature and changes I will add in future.
 
 - Make Website Responsive
 - Improve Design (Add Different fonts styles, images, videos).
