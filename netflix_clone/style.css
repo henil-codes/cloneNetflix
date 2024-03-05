@@ -102,7 +102,6 @@ nav {
     color: white;
     font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 5vh;
 }
 
 
@@ -135,7 +134,38 @@ nav {
     display: flex;
 }
 
-#email-input {
+.input-decoration input {
+    width: 25vw;
+    background-color: transparent;
+    color: white;
+    padding: 1.5rem 1rem 0.5rem;
+    border: 1px solid #929292;
+    border-radius: 5px;
+
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+}
+
+.input-decoration input:focus-within {
+    flex-grow: 5;
+    width: 25vw;
+    background-color: transparent;
+    color: white;
+    padding: 1.5rem 1rem 0.5rem;
+    border: 1px solid #929292;
+    border-radius: 5px;
+}
+
+/* .input-decoration input[type="email" i]{
+    padding-block: 1px;
+    padding-inline: 2px;
+} */
+
+
+
+/* #email-input {
     background: transparent;
     color: white;
     border-color: grey;
@@ -143,11 +173,11 @@ nav {
     border-radius: 6px;
     width: 25vw;
     height: 56px;
-}
+} */
 
-#email-input::placeholder {
+/* #email-input::placeholder {
     padding-left: 15px;
-}
+} */
 
 .get-start {
     height: 60px;
@@ -291,26 +321,23 @@ nav {
 }
 
 #box1-ma-gayab-they-ne-ave-te {
-    position: relative;
     display: none;
     padding: 25px;
     color: #fff;
     background-color: #232323;
     margin-top: 2px;
     font-size: 1.5rem;
-    transition: 1s ease-in-out ;
-    animation: topTOBottom 2s forwards ease-in-out step-start;
+    filter: blur(20px);
+    opacity: 0;
+    transform: translateY(50px);
+    animation: showContent 0.5s 1s linear 1s forwards;
 }
 
-@keyframes topTOBottom{
-    from {
-        visibility: 0%;
-    } 
-    50% {
-        visibility: 50%;
-    }
+@keyframes showContent {
     to {
-        visibility: 100%;
+        transform: translateY(0px);
+        opacity: 1;
+        filter: blur(00px);
     }
 }
 
