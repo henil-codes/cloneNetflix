@@ -56,7 +56,12 @@ nav {
 }
 
 .selectLang option{
+    text-align: center;
     color: black;
+}
+
+.selectLang option img {
+    background-color: green;
 }
 
 .nav-left img {
