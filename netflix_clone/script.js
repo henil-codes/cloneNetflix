@@ -42,8 +42,8 @@ box1.addEventListener('click', () => {
         box5Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'none';
         box6Img.style.transform = 'rotate(0deg)';
-        
-    } else { 
+
+    } else {
         box1Img.style.transform = 'rotate(0deg)';
         showBox1.style.display = 'none';
     }
@@ -63,8 +63,8 @@ box2.addEventListener('click', () => {
         box5Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'none';
         box6Img.style.transform = 'rotate(0deg)';
-        
-    } else { 
+
+    } else {
         box2Img.style.transform = 'rotate(0deg)';
         showBox2.style.display = 'none';
     }
@@ -84,7 +84,7 @@ box3.addEventListener('click', () => {
         box5Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'none';
         box6Img.style.transform = 'rotate(0deg)';
-    } else { 
+    } else {
         box3Img.style.transform = 'rotate(0deg)';
         showBox3.style.display = 'none';
     }
@@ -104,7 +104,7 @@ box4.addEventListener('click', () => {
         box5Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'none';
         box6Img.style.transform = 'rotate(0deg)';
-    } else { 
+    } else {
         box4Img.style.transform = 'rotate(0deg)';
         showBox4.style.display = 'none';
     }
@@ -124,7 +124,7 @@ box5.addEventListener('click', () => {
         box5Img.style.transform = "rotate(45deg)";
         showBox6.style.display = 'none';
         box6Img.style.transform = 'rotate(0deg)';
-    } else { 
+    } else {
         box5Img.style.transform = 'rotate(0deg)';
         showBox5.style.display = 'none';
     }
@@ -144,7 +144,7 @@ box6.addEventListener('click', () => {
         box5Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'block';
         box6Img.style.transform = "rotate(45deg)";
-    } else { 
+    } else {
         box6Img.style.transform = 'rotate(0deg)';
         showBox6.style.display = 'none';
     }
