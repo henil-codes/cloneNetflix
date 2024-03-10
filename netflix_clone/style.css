@@ -88,14 +88,24 @@ nav {
 }
 
 .page-1-content {
-    padding-top: 33vh;
-    height: 37vh;
-    color: white;
+    height: 78vh;
+    /* padding-top: 33vh; */
+    font-family: Quicksand, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    font-family: Quicksand, sans-serif;
+    color: white;
+}
+
+.main-caption-1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 24px;
+    /* padding-top: 66px; */
 }
 
 .main-text {
@@ -104,25 +114,15 @@ nav {
     font-weight: 900;
 }
 
-
-.main-caption-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-top: 66px;
-
-}
-
 .sub-field {
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     font-family: Quicksand, sans-serif;
     line-height: 8vh;
-    margin-bottom: 6vh;
+    /* margin-bottom: 6vh; */
 }
 
 .upper-text {
@@ -132,6 +132,8 @@ nav {
 
 .input-decoration {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .input-decoration input {
@@ -157,29 +159,8 @@ nav {
     border-radius: 5px;
 }
 
-/* .input-decoration input[type="email" i]{
-    padding-block: 1px;
-    padding-inline: 2px;
-} */
-
-
-
-/* #email-input {
-    background: transparent;
-    color: white;
-    border-color: grey;
-    border-style: double;
-    border-radius: 6px;
-    width: 25vw;
-    height: 56px;
-} */
-
-/* #email-input::placeholder {
-    padding-left: 15px;
-} */
-
 .get-start {
-    height: 60px;
+    height: 7vh;
     width: 12vw;
     background-color: #e50914;
     color: white;
